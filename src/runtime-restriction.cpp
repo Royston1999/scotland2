@@ -9,6 +9,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <unordered_map>
+#include <bits/page_size.h>
 
 #define PAGE_START(addr) (PAGE_MASK & addr)
 
